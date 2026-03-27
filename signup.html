@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYGYM</title>
+    <meta name="description" content="join mygym today for special offer, and get
+    access to our exclusive workout videos and music playlists.">
+    <meta name="keyword" content="fitness, motivation, cozy gym, gym community, achieve aesthetics">
+    <meta name="author" content="David Laid">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="MYGYM">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="MYGYM.png">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a> <!--# here jump on the same page-->
+    <header>
+        <h1>MYGYM</h1>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="class.html">Classes</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="signup.html">Sign up</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section id="signup">
+            <h2>MYGYM Form</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Smith" minlength="2" maxlength="50"
+                    required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="e.g. john@email.com" required>
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8"
+                    maxlength="20" required>
+
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="e.g. 25" min="16" max="99" required>
+
+                <br><br>
+
+                <label for="phonenumber">Phone Number:</label>
+                <input type="tel" id="phonenumber" name="phonenumber" placeholder="e.g. 12-456-7890"
+                    pattern="[0-9\s\-]{7,15}" required>
+
+                <br><br>
+                <label for="joindate">Join Date:</label>
+                <input type="date" id="joindate" name="joindate" placeholder="Select your join date" required>
+
+                <br><br>
+                <!-- selection inputs -->
+                <h2>Selection inputs</h2>
+                <label for="plan">Membership Plan:</label>
+                <select id="plan" name="Plan" required>
+                    <option value="">-- Select a plan --</option>
+                    <option value="basic">Basic-139$/y</option>
+                    <option value="premium">Premium-199$/y</option>
+                    <option value="vip">VIP-299$/y</option>
+                </select>
+                <!--Radio buttons-->
+                <h2>Gender </h2>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+
+                <!--Check box-->
+                <h2>fitness goal</h2>
+                <input type="checkbox" id="weightloss" name="goals" value="weightloss">
+                <label for="weightloss">Weight Loss</label>
+
+                <input type="checkbox" id="muslce" name="goals" value="muscle">
+                <label for="muslce">Muscle Gain</label>
+
+                <input type="checkbox" id="athletic" name="goals" value="athletic">
+                <label for="athletic">Athletic Performance</label>
+
+                <input type="checkbox" id="fit" name="goals" value="fit">
+                <label for="fit">General Fitness</label>
+
+                <h2>Class Interest</h2>
+                <input type="checkbox" id="yoga" name="CI" value="Yoga">
+                <label for="yoga">Yoga</label>
+
+                <input type="checkbox" id="boxing" name="CI" value="Boxing">
+                <label for="boxing">Boxing</label>
+
+                <input type="checkbox" id="hIIT" name="CI" value="HIIT">
+                <label for="hIIT">HIIT</label>
+
+                <input type="checkbox" id="spin" name="CI" value="Spin">
+                <label for="spin">Spin</label>
+            </form>
+        </section>
+        <!--textarea-->
+        <section id="notes">
+            <h3>tell us more about your commitment</h3>
+            <textarea id="message" name="message" rows="4" cols="50"
+                placeholder="write down your commitment here..."></textarea>
+        </section>
+        <!--Term Condition-->
+        <section id="terms">
+        <h2>Terms and Conditions</h2>
+          <p>By submitting this form, you agree to our <a href="terms.html">Terms and Conditions</a> and
+                acknowledge that you have read our <a href="privacy.html">Privacy Policy</a>.</p>
+        <input type="checkbox" id="terms" name="Term" value="Term" required>
+        <label for="terms"> I agree to the terms and conditions</label>
+        <br><br>
+        <button type="submit">Submit</button>
+        </section>
+    </main>
+    <footer>
+        <a href="mailto:mygym@gmail.com">Email us</a> |
+        <a href="tel:021-456-7890">Call us</a> |
+        <a href="https://www.facebook.com/mygym">Facebook</a> |
+        <br>
+        <p> &copy; 2023 MYGYM. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
